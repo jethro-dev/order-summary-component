@@ -21,31 +21,33 @@
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
-    <article class="card">
-      <div class="card-top">
-        <img src="./images/illustration-hero.svg" alt="Hero Image" />
-      </div>
-      <div class="card-bottom">
-        <h1>Order Summary</h1>
-        <p>
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </p>
-        <div class="bg-gray flex justify-between">
-          <div class="flex">
-            <img src="./images/icon-music.svg" alt="Music Icon" />
-            <div class="flex flex-col">
-              <span class="text-darkblue">Annual Plan</span>
-              <span class="text-money">$59.99/year</span>
+    <main>
+      <section class="card">
+        <div class="card-top">
+          <img src="./images/illustration-hero.svg" alt="Hero Image" />
+        </div>
+        <div class="card-bottom">
+          <h1>Order Summary</h1>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="bg-gray flex justify-between">
+            <div class="flex">
+              <img src="./images/icon-music.svg" alt="Music Icon" />
+              <div class="flex flex-col">
+                <span class="text-darkblue">Annual Plan</span>
+                <span class="text-money">$59.99/year</span>
+              </div>
             </div>
+            <span class="change-span">Change</span>
           </div>
-          <span class="change-span">Change</span>
+          <div class="flex flex-col gap">
+            <button class="pay-button">Proceed to Payment</button>
+            <button class="cancel-button">Cancel Order</button>
+          </div>
         </div>
-        <div class="flex flex-col gap">
-          <button class="pay-button">Proceed to Payment</button>
-          <button class="cancel-button">Cancel Order</button>
-        </div>
-      </div>
-    </article>
+      </section>
+    </main>
   </body>
 </html>
